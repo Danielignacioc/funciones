@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funciones: 3 Pintar</title>
+  </head>
+  <body>
+    <div onclick="pintar('red')" id="ele1">hello</div>
+
+ <!--    <script>
+      ele = document.getElementById("ele1");
+
+      ele.addEventListener("click", function () {
+        ele.style.backgroundColor = "yellow";
+      });
+    </script> -->
+
+<!-- <script>
+ele = document.getElementById("ele1")
+let color = ele.style.backgroundColor;
+
+
+    function pintar(color) {
+        let bColor = true;
+
+        ele.addEventListener("click", function () {
+        bColor = false;
+      });
+
+      if (color != '') {
+        if (bColor) {
+           color = 'green';       
+        }
+        else {
+            color = 'yellow';
+        }
+
+    }}
+
+    ele = document.getElementById("ele1")
+    ele.addEventListener("click", pintar);
+    </script> -->
+
+
+<script>
+
+
+    function pintar(color) {
+        ele = document.getElementById("ele1");
+        bgColor = ele.style.backgroundColor;
+        
+        if (!bgColor) {
+
+          ele.style.backgroundColor = 'green';
+          ele.focus();
+          return 0;
+        }
+
+        else if (color) {
+          ele.style.backgroundColor = 'yellow';
+          return 0;
+        }
+      }
+
+</script>
+  </body>
+</html>

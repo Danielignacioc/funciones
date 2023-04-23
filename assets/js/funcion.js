@@ -1,0 +1,1 @@
+const example = (a,b) => a+b+c;
