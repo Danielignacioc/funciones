@@ -16,8 +16,6 @@ e4.style.backgroundColor = 'red';
 
  */
 
-
-
 /* function buscarYColorear() {
     let foco = foco.addEventListener("click", function()) {
 
