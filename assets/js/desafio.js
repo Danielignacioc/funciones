@@ -1,4 +1,5 @@
-const elementos = document.getElementsByClassName("estilo");
+/* const elementos = document.getElementsByClassName("estilo");
+
 const e1 = document.getElementById("primero");
 const e2 = document.getElementById("segundo");
 const e3 = document.getElementById("tercero");
@@ -13,7 +14,7 @@ e2.style.backgroundColor = 'white';
 e3.style.backgroundColor = 'green';
 e4.style.backgroundColor = 'red';
 
-
+ */
 
 
 
