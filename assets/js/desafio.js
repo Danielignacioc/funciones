@@ -4,22 +4,18 @@ const e3 = document.getElementById("i3");
 const e4 = document.getElementById("i4");
  */
 
-
 function seleccionar(sId) {
   const eId = document.getElementById(sId);
-  document.addEventListener('keydown', function (event) {
-
-      if (event.key === 'a') {
-      return eId.style.backgroundColor = 'brown';
-      }
-
-      else if (event.key === 's') {
-        return eId.style.backgroundColor = 'darkgreen';
-
-      }
-
-      else if (event.key === 'd') {
-      return eId.style.backgroundColor = 'darkgrey';
-      }
-      })
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "a") {
+      const color = (eId.style.backgroundColor = "brown");
+      return color;
+    } else if (event.key === "s") {
+      const color = (eId.style.backgroundColor = "darkgreen");
+      return color;
+    } else if (event.key === "d") {
+      const color = (eId.style.backgroundColor = "darkgrey");
+      return color;
+    }
+  });
 }
