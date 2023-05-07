@@ -1,37 +1,25 @@
-/* const elementos = document.getElementsByClassName("estilo");
-
-const e1 = document.getElementById("primero");
-const e2 = document.getElementById("segundo");
-const e3 = document.getElementById("tercero");
-const e4 = document.getElementById("cuarto");
-
-elementos.style.width = '200px';
-elementos.style.height = '200px';
-
-
-e1.style.backgroundColor = 'black';
-e2.style.backgroundColor = 'white';
-e3.style.backgroundColor = 'green';
-e4.style.backgroundColor = 'red';
-
+/* const e1 = document.getElementById("i1");
+const e2 = document.getElementById("i2");
+const e3 = document.getElementById("i3");
+const e4 = document.getElementById("i4");
  */
 
-/* function buscarYColorear() {
-    let foco = foco.addEventListener("click", function()) {
 
-    }
+function seleccionar(sId) {
+  const eId = document.getElementById(sId);
+  document.addEventListener('keydown', function (event) {
 
-document.addEventListener('keydown', function (event) {
-    if (event.key === 'a') {
-    color = 'brown';
+      if (event.key === 'a') {
+      return eId.style.backgroundColor = 'brown';
+      }
 
-    } else if (event.key === 's') {
-    color = 'darkgreen';
-    }
-    else if (event.key === 'd') {
-        color = 'darkgrey';
-    }
-    })
+      else if (event.key === 's') {
+        return eId.style.backgroundColor = 'darkgreen';
 
-} */
+      }
 
+      else if (event.key === 'd') {
+      return eId.style.backgroundColor = 'darkgrey';
+      }
+      })
+}
